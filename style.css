@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+    font-size: 18px;
+    background-image:url('../imagens/5438849.jpg');
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: multiply;
+  
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #5b116a;
+  }
+  
+  .conteudo {
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25vh;
+    padding-bottom: 20px;
+    
+  
+  }
+  
+  ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
+  }
+  
+  li {
+    padding: 20px;
+  }
+  
+  #listaRespostas {
+    display: none;
+  }
+  
+  button {
+    border: 0;
+    background-color: rgb(93, 22, 96);
+    padding: 10px 20px 10px;
+    font-size: 18pt;
+  }
+  
+  button:hover {
+    background-color: rgb(150, 102, 213);
+  }
